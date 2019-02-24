@@ -1,6 +1,6 @@
 {
   "name": "@stevengregory/card",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "A personal card for Steven Gregory",
   "main": "index.js",
   "bin": {
