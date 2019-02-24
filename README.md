@@ -1,7 +1,5 @@
 # Steven Gregory's Card
 
-It's me, Steven!
-
 ![Card](https://raw.githubusercontent.com/stevengregory/stevengregory-card/master/card.png)
 
 ## Usage
