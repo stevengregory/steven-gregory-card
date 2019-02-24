@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevengregory/stevengregory-card.git"
+    "url": "https://github.com/stevengregory/steven-gregory-card.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
