@@ -60,5 +60,5 @@ const output = heading
   + newline
   + carding;
 
-const cardMessage = chalk.green(boxen(output, options));
+const cardMessage = chalk.cyan(boxen(output, options));
 captains.log(cardMessage);
