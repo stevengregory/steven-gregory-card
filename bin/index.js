@@ -19,11 +19,11 @@ const options = {
 const data = {
   name: chalk.white('Steven Gregory /'),
   handle: chalk.cyan('Ninja'),
-  work: chalk.white('Web Developer'),
+  work: chalk.white('Software Developer'),
   twitter: chalk.cyan('https://twitter.com/sgregory'),
   github: chalk.cyan('https://github.com/stevengregory'),
   linkedin: chalk.cyan('https://linkedin.com/in/stevengregory2'),
-  web: chalk.cyan('http://stevengregory.ninja'),
+  web: chalk.cyan('https://stevengregory.ninja'),
   npx: chalk.white('npx @stevengregory/card'),
   labelWork: chalk.white.bold('      Work:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
@@ -44,21 +44,22 @@ const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
-const output = heading
-  + newline
-  + newline
-  + working
-  + newline
-  + twittering
-  + newline
-  + githubing
-  + newline
-  + linkedining
-  + newline
-  + webing
-  + newline
-  + newline
-  + carding;
+const output =
+  heading +
+  newline +
+  newline +
+  working +
+  newline +
+  twittering +
+  newline +
+  githubing +
+  newline +
+  linkedining +
+  newline +
+  webing +
+  newline +
+  newline +
+  carding;
 
 const cardMessage = chalk.cyan(boxen(output, options));
 captains.log(cardMessage);
